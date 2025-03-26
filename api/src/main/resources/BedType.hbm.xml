@@ -6,7 +6,7 @@
     <class name="org.openmrs.module.bedmanagement.entity.BedType" table="bed_type">
 
         <id name="id" type="int" column="bed_type_id" unsaved-value="0">
-            <generator class="native"/>
+            <generator class="identity"/>
         </id>
 
         <property name="uuid" type="java.lang.String" column="uuid" length="38" unique="true"/>
