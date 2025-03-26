@@ -7,7 +7,7 @@
     <class name="org.openmrs.module.bedmanagement.entity.BedLocationMapping" table="bed_location_map">
 
         <id name="id" type="int" column="bed_location_map_id" unsaved-value="0">
-            <generator class="native"/>
+            <generator class="identity"/>
         </id>
 
         <many-to-one name="location" class="org.openmrs.Location" not-null="true" column="location_id"/>
