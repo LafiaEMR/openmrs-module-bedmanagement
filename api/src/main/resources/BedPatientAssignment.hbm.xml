@@ -7,7 +7,7 @@
     <class name="org.openmrs.module.bedmanagement.entity.BedPatientAssignment" table="bed_patient_assignment_map">
 
         <id name="id" type="int" column="bed_patient_assignment_map_id" unsaved-value="0">
-            <generator class="native"/>
+            <generator class="identity"/>
         </id>
 
         <property name="uuid" type="java.lang.String"
